@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B307D6861AF4CBBE00F29C9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6851AF4CBBE00F29C9C /* main.m */; };
+		B307D6891AF4CBBE00F29C9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6881AF4CBBE00F29C9C /* AppDelegate.m */; };
+		B307D6911AF4CBBE00F29C9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B307D6901AF4CBBE00F29C9C /* Images.xcassets */; };
+		B307D6941AF4CBBE00F29C9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B307D6921AF4CBBE00F29C9C /* LaunchScreen.xib */; };
+		B307D6AE1AF4CCC600F29C9C /* SEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6AB1AF4CCC600F29C9C /* SEViewController.m */; };
+		B307D6AF1AF4CCC600F29C9C /* SEPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6AD1AF4CCC600F29C9C /* SEPhotoView.m */; };
+		B307D6D51AF4CCD000F29C9C /* SECompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6B31AF4CCD000F29C9C /* SECompatibility.m */; };
+		B307D6D61AF4CCD000F29C9C /* SEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6B51AF4CCD000F29C9C /* SEConstants.m */; };
+		B307D6D71AF4CCD000F29C9C /* SELineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6B71AF4CCD000F29C9C /* SELineLayout.m */; };
+		B307D6D81AF4CCD000F29C9C /* SELinkText.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6B91AF4CCD000F29C9C /* SELinkText.m */; };
+		B307D6D91AF4CCD000F29C9C /* SESelectionGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6BB1AF4CCD000F29C9C /* SESelectionGrabber.m */; };
+		B307D6DA1AF4CCD000F29C9C /* SETextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6BD1AF4CCD000F29C9C /* SETextAttachment.m */; };
+		B307D6DB1AF4CCD000F29C9C /* SETextEditingCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6BF1AF4CCD000F29C9C /* SETextEditingCaret.m */; };
+		B307D6DC1AF4CCD000F29C9C /* SETextGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6C11AF4CCD000F29C9C /* SETextGeometry.m */; };
+		B307D6DD1AF4CCD000F29C9C /* SETextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6C31AF4CCD000F29C9C /* SETextInput.m */; };
+		B307D6DE1AF4CCD000F29C9C /* SETextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6C51AF4CCD000F29C9C /* SETextLayout.m */; };
+		B307D6DF1AF4CCD000F29C9C /* SETextMagnifierCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6C71AF4CCD000F29C9C /* SETextMagnifierCaret.m */; };
+		B307D6E01AF4CCD000F29C9C /* SETextMagnifierRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6C91AF4CCD000F29C9C /* SETextMagnifierRanged.m */; };
+		B307D6E11AF4CCD000F29C9C /* SETextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6CB1AF4CCD000F29C9C /* SETextSelection.m */; };
+		B307D6E21AF4CCD000F29C9C /* SETextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6CD1AF4CCD000F29C9C /* SETextSelectionView.m */; };
+		B307D6E31AF4CCD000F29C9C /* SETextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6CF1AF4CCD000F29C9C /* SETextView.m */; };
+		B307D6E41AF4CCD000F29C9C /* SEViewCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6D11AF4CCD000F29C9C /* SEViewCaptureHelper.m */; };
+		B307D6E51AF4CCD000F29C9C /* UIImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6D31AF4CCD000F29C9C /* UIImage-Extensions.m */; };
+		B307D6E61AF4CCD000F29C9C /* SECoreTextView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B307D6D41AF4CCD000F29C9C /* SECoreTextView.bundle */; };
+		B307D6E81AF4CD6300F29C9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B307D6E71AF4CD6300F29C9C /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B307D6801AF4CBBE00F29C9C /* JKRichText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRichText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B307D6841AF4CBBE00F29C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B307D6851AF4CBBE00F29C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B307D6871AF4CBBE00F29C9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B307D6881AF4CBBE00F29C9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B307D6901AF4CBBE00F29C9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B307D6931AF4CBBE00F29C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B307D6A91AF4CC7600F29C9C /* JKRichText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKRichText-Prefix.pch"; sourceTree = "<group>"; };
+		B307D6AA1AF4CCC600F29C9C /* SEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEViewController.h; sourceTree = "<group>"; };
+		B307D6AB1AF4CCC600F29C9C /* SEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEViewController.m; sourceTree = "<group>"; };
+		B307D6AC1AF4CCC600F29C9C /* SEPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPhotoView.h; sourceTree = "<group>"; };
+		B307D6AD1AF4CCC600F29C9C /* SEPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPhotoView.m; sourceTree = "<group>"; };
+		B307D6B21AF4CCD000F29C9C /* SECompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECompatibility.h; sourceTree = "<group>"; };
+		B307D6B31AF4CCD000F29C9C /* SECompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECompatibility.m; sourceTree = "<group>"; };
+		B307D6B41AF4CCD000F29C9C /* SEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEConstants.h; sourceTree = "<group>"; };
+		B307D6B51AF4CCD000F29C9C /* SEConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEConstants.m; sourceTree = "<group>"; };
+		B307D6B61AF4CCD000F29C9C /* SELineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELineLayout.h; sourceTree = "<group>"; };
+		B307D6B71AF4CCD000F29C9C /* SELineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELineLayout.m; sourceTree = "<group>"; };
+		B307D6B81AF4CCD000F29C9C /* SELinkText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELinkText.h; sourceTree = "<group>"; };
+		B307D6B91AF4CCD000F29C9C /* SELinkText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELinkText.m; sourceTree = "<group>"; };
+		B307D6BA1AF4CCD000F29C9C /* SESelectionGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESelectionGrabber.h; sourceTree = "<group>"; };
+		B307D6BB1AF4CCD000F29C9C /* SESelectionGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESelectionGrabber.m; sourceTree = "<group>"; };
+		B307D6BC1AF4CCD000F29C9C /* SETextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextAttachment.h; sourceTree = "<group>"; };
+		B307D6BD1AF4CCD000F29C9C /* SETextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextAttachment.m; sourceTree = "<group>"; };
+		B307D6BE1AF4CCD000F29C9C /* SETextEditingCaret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextEditingCaret.h; sourceTree = "<group>"; };
+		B307D6BF1AF4CCD000F29C9C /* SETextEditingCaret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextEditingCaret.m; sourceTree = "<group>"; };
+		B307D6C01AF4CCD000F29C9C /* SETextGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextGeometry.h; sourceTree = "<group>"; };
+		B307D6C11AF4CCD000F29C9C /* SETextGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextGeometry.m; sourceTree = "<group>"; };
+		B307D6C21AF4CCD000F29C9C /* SETextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextInput.h; sourceTree = "<group>"; };
+		B307D6C31AF4CCD000F29C9C /* SETextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextInput.m; sourceTree = "<group>"; };
+		B307D6C41AF4CCD000F29C9C /* SETextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextLayout.h; sourceTree = "<group>"; };
+		B307D6C51AF4CCD000F29C9C /* SETextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextLayout.m; sourceTree = "<group>"; };
+		B307D6C61AF4CCD000F29C9C /* SETextMagnifierCaret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextMagnifierCaret.h; sourceTree = "<group>"; };
+		B307D6C71AF4CCD000F29C9C /* SETextMagnifierCaret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextMagnifierCaret.m; sourceTree = "<group>"; };
+		B307D6C81AF4CCD000F29C9C /* SETextMagnifierRanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextMagnifierRanged.h; sourceTree = "<group>"; };
+		B307D6C91AF4CCD000F29C9C /* SETextMagnifierRanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextMagnifierRanged.m; sourceTree = "<group>"; };
+		B307D6CA1AF4CCD000F29C9C /* SETextSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextSelection.h; sourceTree = "<group>"; };
+		B307D6CB1AF4CCD000F29C9C /* SETextSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextSelection.m; sourceTree = "<group>"; };
+		B307D6CC1AF4CCD000F29C9C /* SETextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextSelectionView.h; sourceTree = "<group>"; };
+		B307D6CD1AF4CCD000F29C9C /* SETextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextSelectionView.m; sourceTree = "<group>"; };
+		B307D6CE1AF4CCD000F29C9C /* SETextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextView.h; sourceTree = "<group>"; };
+		B307D6CF1AF4CCD000F29C9C /* SETextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextView.m; sourceTree = "<group>"; };
+		B307D6D01AF4CCD000F29C9C /* SEViewCaptureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEViewCaptureHelper.h; sourceTree = "<group>"; };
+		B307D6D11AF4CCD000F29C9C /* SEViewCaptureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEViewCaptureHelper.m; sourceTree = "<group>"; };
+		B307D6D21AF4CCD000F29C9C /* UIImage-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Extensions.h"; sourceTree = "<group>"; };
+		B307D6D31AF4CCD000F29C9C /* UIImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extensions.m"; sourceTree = "<group>"; };
+		B307D6D41AF4CCD000F29C9C /* SECoreTextView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SECoreTextView.bundle; sourceTree = "<group>"; };
+		B307D6E71AF4CD6300F29C9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B307D67D1AF4CBBE00F29C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B307D6771AF4CBBE00F29C9C = {
+			isa = PBXGroup;
+			children = (
+				B307D6E71AF4CD6300F29C9C /* Default-568h@2x.png */,
+				B307D6821AF4CBBE00F29C9C /* JKRichText */,
+				B307D6811AF4CBBE00F29C9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B307D6811AF4CBBE00F29C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B307D6801AF4CBBE00F29C9C /* JKRichText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B307D6821AF4CBBE00F29C9C /* JKRichText */ = {
+			isa = PBXGroup;
+			children = (
+				B307D6B01AF4CCD000F29C9C /* SECoreText */,
+				B307D6871AF4CBBE00F29C9C /* AppDelegate.h */,
+				B307D6881AF4CBBE00F29C9C /* AppDelegate.m */,
+				B307D6AA1AF4CCC600F29C9C /* SEViewController.h */,
+				B307D6AB1AF4CCC600F29C9C /* SEViewController.m */,
+				B307D6AC1AF4CCC600F29C9C /* SEPhotoView.h */,
+				B307D6AD1AF4CCC600F29C9C /* SEPhotoView.m */,
+				B307D6901AF4CBBE00F29C9C /* Images.xcassets */,
+				B307D6921AF4CBBE00F29C9C /* LaunchScreen.xib */,
+				B307D6831AF4CBBE00F29C9C /* Supporting Files */,
+			);
+			path = JKRichText;
+			sourceTree = "<group>";
+		};
+		B307D6831AF4CBBE00F29C9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B307D6841AF4CBBE00F29C9C /* Info.plist */,
+				B307D6851AF4CBBE00F29C9C /* main.m */,
+				B307D6A91AF4CC7600F29C9C /* JKRichText-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B307D6B01AF4CCD000F29C9C /* SECoreText */ = {
+			isa = PBXGroup;
+			children = (
+				B307D6B11AF4CCD000F29C9C /* Core */,
+				B307D6D41AF4CCD000F29C9C /* SECoreTextView.bundle */,
+			);
+			path = SECoreText;
+			sourceTree = SOURCE_ROOT;
+		};
+		B307D6B11AF4CCD000F29C9C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B307D6B21AF4CCD000F29C9C /* SECompatibility.h */,
+				B307D6B31AF4CCD000F29C9C /* SECompatibility.m */,
+				B307D6B41AF4CCD000F29C9C /* SEConstants.h */,
+				B307D6B51AF4CCD000F29C9C /* SEConstants.m */,
+				B307D6B61AF4CCD000F29C9C /* SELineLayout.h */,
+				B307D6B71AF4CCD000F29C9C /* SELineLayout.m */,
+				B307D6B81AF4CCD000F29C9C /* SELinkText.h */,
+				B307D6B91AF4CCD000F29C9C /* SELinkText.m */,
+				B307D6BA1AF4CCD000F29C9C /* SESelectionGrabber.h */,
+				B307D6BB1AF4CCD000F29C9C /* SESelectionGrabber.m */,
+				B307D6BC1AF4CCD000F29C9C /* SETextAttachment.h */,
+				B307D6BD1AF4CCD000F29C9C /* SETextAttachment.m */,
+				B307D6BE1AF4CCD000F29C9C /* SETextEditingCaret.h */,
+				B307D6BF1AF4CCD000F29C9C /* SETextEditingCaret.m */,
+				B307D6C01AF4CCD000F29C9C /* SETextGeometry.h */,
+				B307D6C11AF4CCD000F29C9C /* SETextGeometry.m */,
+				B307D6C21AF4CCD000F29C9C /* SETextInput.h */,
+				B307D6C31AF4CCD000F29C9C /* SETextInput.m */,
+				B307D6C41AF4CCD000F29C9C /* SETextLayout.h */,
+				B307D6C51AF4CCD000F29C9C /* SETextLayout.m */,
+				B307D6C61AF4CCD000F29C9C /* SETextMagnifierCaret.h */,
+				B307D6C71AF4CCD000F29C9C /* SETextMagnifierCaret.m */,
+				B307D6C81AF4CCD000F29C9C /* SETextMagnifierRanged.h */,
+				B307D6C91AF4CCD000F29C9C /* SETextMagnifierRanged.m */,
+				B307D6CA1AF4CCD000F29C9C /* SETextSelection.h */,
+				B307D6CB1AF4CCD000F29C9C /* SETextSelection.m */,
+				B307D6CC1AF4CCD000F29C9C /* SETextSelectionView.h */,
+				B307D6CD1AF4CCD000F29C9C /* SETextSelectionView.m */,
+				B307D6CE1AF4CCD000F29C9C /* SETextView.h */,
+				B307D6CF1AF4CCD000F29C9C /* SETextView.m */,
+				B307D6D01AF4CCD000F29C9C /* SEViewCaptureHelper.h */,
+				B307D6D11AF4CCD000F29C9C /* SEViewCaptureHelper.m */,
+				B307D6D21AF4CCD000F29C9C /* UIImage-Extensions.h */,
+				B307D6D31AF4CCD000F29C9C /* UIImage-Extensions.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B307D67F1AF4CBBE00F29C9C /* JKRichText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B307D6A31AF4CBBE00F29C9C /* Build configuration list for PBXNativeTarget "JKRichText" */;
+			buildPhases = (
+				B307D67C1AF4CBBE00F29C9C /* Sources */,
+				B307D67D1AF4CBBE00F29C9C /* Frameworks */,
+				B307D67E1AF4CBBE00F29C9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRichText;
+			productName = JKRichText;
+			productReference = B307D6801AF4CBBE00F29C9C /* JKRichText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B307D6781AF4CBBE00F29C9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Jecky;
+				TargetAttributes = {
+					B307D67F1AF4CBBE00F29C9C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B307D67B1AF4CBBE00F29C9C /* Build configuration list for PBXProject "JKRichText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B307D6771AF4CBBE00F29C9C;
+			productRefGroup = B307D6811AF4CBBE00F29C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B307D67F1AF4CBBE00F29C9C /* JKRichText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B307D67E1AF4CBBE00F29C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307D6E61AF4CCD000F29C9C /* SECoreTextView.bundle in Resources */,
+				B307D6E81AF4CD6300F29C9C /* Default-568h@2x.png in Resources */,
+				B307D6941AF4CBBE00F29C9C /* LaunchScreen.xib in Resources */,
+				B307D6911AF4CBBE00F29C9C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B307D67C1AF4CBBE00F29C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307D6DC1AF4CCD000F29C9C /* SETextGeometry.m in Sources */,
+				B307D6E51AF4CCD000F29C9C /* UIImage-Extensions.m in Sources */,
+				B307D6891AF4CBBE00F29C9C /* AppDelegate.m in Sources */,
+				B307D6E31AF4CCD000F29C9C /* SETextView.m in Sources */,
+				B307D6E41AF4CCD000F29C9C /* SEViewCaptureHelper.m in Sources */,
+				B307D6E01AF4CCD000F29C9C /* SETextMagnifierRanged.m in Sources */,
+				B307D6D61AF4CCD000F29C9C /* SEConstants.m in Sources */,
+				B307D6D91AF4CCD000F29C9C /* SESelectionGrabber.m in Sources */,
+				B307D6D81AF4CCD000F29C9C /* SELinkText.m in Sources */,
+				B307D6D71AF4CCD000F29C9C /* SELineLayout.m in Sources */,
+				B307D6DF1AF4CCD000F29C9C /* SETextMagnifierCaret.m in Sources */,
+				B307D6E11AF4CCD000F29C9C /* SETextSelection.m in Sources */,
+				B307D6DE1AF4CCD000F29C9C /* SETextLayout.m in Sources */,
+				B307D6DB1AF4CCD000F29C9C /* SETextEditingCaret.m in Sources */,
+				B307D6DD1AF4CCD000F29C9C /* SETextInput.m in Sources */,
+				B307D6DA1AF4CCD000F29C9C /* SETextAttachment.m in Sources */,
+				B307D6AF1AF4CCC600F29C9C /* SEPhotoView.m in Sources */,
+				B307D6E21AF4CCD000F29C9C /* SETextSelectionView.m in Sources */,
+				B307D6AE1AF4CCC600F29C9C /* SEViewController.m in Sources */,
+				B307D6D51AF4CCD000F29C9C /* SECompatibility.m in Sources */,
+				B307D6861AF4CBBE00F29C9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B307D6921AF4CBBE00F29C9C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B307D6931AF4CBBE00F29C9C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B307D6A11AF4CBBE00F29C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B307D6A21AF4CBBE00F29C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B307D6A41AF4CBBE00F29C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRichText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B307D6A51AF4CBBE00F29C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRichText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B307D67B1AF4CBBE00F29C9C /* Build configuration list for PBXProject "JKRichText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307D6A11AF4CBBE00F29C9C /* Debug */,
+				B307D6A21AF4CBBE00F29C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B307D6A31AF4CBBE00F29C9C /* Build configuration list for PBXNativeTarget "JKRichText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307D6A41AF4CBBE00F29C9C /* Debug */,
+				B307D6A51AF4CBBE00F29C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B307D6781AF4CBBE00F29C9C /* Project object */;
+}
