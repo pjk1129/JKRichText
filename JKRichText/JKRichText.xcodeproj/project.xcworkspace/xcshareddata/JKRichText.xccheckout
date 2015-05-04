@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>778D235E-CD63-42BF-BCBB-1F3E8E65EBCD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JKRichText</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5DA0974A9A49BF9F1826E3303F59363FD0DEEB7D</key>
+		<string>https://github.com/pjk1129/JKRichText.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JKRichText/JKRichText.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5DA0974A9A49BF9F1826E3303F59363FD0DEEB7D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pjk1129/JKRichText.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5DA0974A9A49BF9F1826E3303F59363FD0DEEB7D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5DA0974A9A49BF9F1826E3303F59363FD0DEEB7D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JKRichText</string>
+		</dict>
+	</array>
+</dict>
+</plist>

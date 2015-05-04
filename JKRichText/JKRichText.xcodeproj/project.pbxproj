@@ -32,6 +32,7 @@
 		B307D6E51AF4CCD000F29C9C /* UIImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B307D6D31AF4CCD000F29C9C /* UIImage-Extensions.m */; };
 		B307D6E61AF4CCD000F29C9C /* SECoreTextView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B307D6D41AF4CCD000F29C9C /* SECoreTextView.bundle */; };
 		B307D6E81AF4CD6300F29C9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B307D6E71AF4CD6300F29C9C /* Default-568h@2x.png */; };
+		B3686B0D1AF74F22005F6D03 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B3686B0C1AF74F22005F6D03 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		B307D6D31AF4CCD000F29C9C /* UIImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extensions.m"; sourceTree = "<group>"; };
 		B307D6D41AF4CCD000F29C9C /* SECoreTextView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SECoreTextView.bundle; sourceTree = "<group>"; };
 		B307D6E71AF4CD6300F29C9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3686B0C1AF74F22005F6D03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		B307D6821AF4CBBE00F29C9C /* JKRichText */ = {
 			isa = PBXGroup;
 			children = (
+				B3686B0C1AF74F22005F6D03 /* README.md */,
 				B307D6B01AF4CCD000F29C9C /* SECoreText */,
 				B307D6871AF4CBBE00F29C9C /* AppDelegate.h */,
 				B307D6881AF4CBBE00F29C9C /* AppDelegate.m */,
@@ -281,6 +284,7 @@
 				B307D6E21AF4CCD000F29C9C /* SETextSelectionView.m in Sources */,
 				B307D6AE1AF4CCC600F29C9C /* SEViewController.m in Sources */,
 				B307D6D51AF4CCD000F29C9C /* SECompatibility.m in Sources */,
+				B3686B0D1AF74F22005F6D03 /* README.md in Sources */,
 				B307D6861AF4CBBE00F29C9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +420,7 @@
 				B307D6A51AF4CBBE00F29C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
